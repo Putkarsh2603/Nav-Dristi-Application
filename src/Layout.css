@@ -1,0 +1,11 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://dashboard.codeparrot.ai/api/image/Z-_lpQz4-w8v6SUZ/desktop.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  

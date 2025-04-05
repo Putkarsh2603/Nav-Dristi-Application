@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30;
+    height: 60px;
+    min-width: 1044px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 90px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .brand-name {
+    font-family: 'Roboto', sans-serif;
+    /* margin-top: 20px; */
+    font-size: 35px;
+    font-weight: 500;
+    color: #780f05;
+    letter-spacing: 0.1px;
+    line-height: 40px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .nav-button {
+    width: 250px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    color: #000000;
+    background-color: rgb(160, 221, 231);
+    cursor: pointer;
+    /* transition: background-color 0.2s; */
+  }
+  
+  .nav-button:hover {
+    background-color: transparent;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 30px;
+    }
+  
+    .nav-buttons {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .nav-button {
+      margin-bottom: 20px;
+      width: 200px;
+    }
+  }
