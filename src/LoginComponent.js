@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './LoginComponent.css';
+import {Link} from 'react-router-dom';
 
 const LoginComponent = ({ defaultEmail = '', defaultPassword = '' }) => {
   const [email, setEmail] = useState(defaultEmail);
@@ -55,13 +56,13 @@ const LoginComponent = ({ defaultEmail = '', defaultPassword = '' }) => {
             'div',
             { className: 'links-container' },
             React.createElement(
-              'a',
-              { href: '#', className: 'create-account' },
+              Link,
+              { to: '/signup', className: 'create-account' },
               'Create an account'
             ),
             React.createElement(
-              'a',
-              { href: '#', className: 'forgot-password' },
+              Link,
+              { to:'/forgot-password', className: 'forgot-password' },
               'Forget password?'
             )
           )
