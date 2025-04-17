@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './LoginComponent.css';
 import {Link} from 'react-router-dom';
 
-const LoginComponent = ({ defaultEmail = '', defaultPassword = '' }) => {
+const LoginComponent = ({ defaultEmail = '', defaultPassword = '', onSuccessfulLogin }) => {
   const [email, setEmail] = useState(defaultEmail);
   const [password, setPassword] = useState(defaultPassword);
 
@@ -10,7 +10,10 @@ const LoginComponent = ({ defaultEmail = '', defaultPassword = '' }) => {
     e.preventDefault();
     // Handle login logic here
     console.log('Login attempted with:', { email, password });
+
+    onSuccessfulLogin();
   };
+
 
   return React.createElement(
     'div',
