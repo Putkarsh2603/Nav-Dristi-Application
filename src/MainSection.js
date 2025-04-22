@@ -4,7 +4,7 @@ import RegisterComponent from './RegisterComponent';
 
 const MainSection = ({ style }) => {
   const [showRegister, setShowRegister] = useState(false);
-  const [showLogin, setShowLogin] = useState(false);
+  const [setShowLogin] = useState(false);
 
   return (
     <>
