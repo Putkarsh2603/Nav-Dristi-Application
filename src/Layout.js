@@ -3,10 +3,10 @@ import NavBar from './NavBar';
 import MainSection from './MainSection';
 import './Layout.css';
 
-const Layout = () => {
+const Layout = ({ setShowLoginModal }) => {
   return (
     <div className="layout-container">
-      <NavBar />
+      <NavBar setShowLoginModal={setShowLoginModal} />
       <MainSection />
     </div>
   );

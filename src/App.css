@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.blur-background {
+  filter: blur(5px);
+  pointer-events: none; /* Prevent interaction with blurred content */
+  position: fixed; /* Or relative depending on your layout */
+  width: 100%;
+  height: 100%;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 800px;
+  width: 90%;
+  filter: none !important; /* Ensure modal content is never blurred */
+}
