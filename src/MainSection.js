@@ -42,8 +42,6 @@ const MainSection = ({ style }) => {
         />
       )}
       
-      {/* Add this if you want to show login modal directly */}
-      {/* {showLogin && <LoginComponent onClose={() => setShowLogin(false)} />} */}
     </>
   );
 };
