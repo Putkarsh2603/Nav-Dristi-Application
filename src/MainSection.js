@@ -13,7 +13,8 @@ const MainSection = ({ style }) => {
           <div className="text-content">
             <h1 className="main-heading">Your Beacon <br/> To Career Success</h1>
             <p className="sub-heading">
-              "Bridge the gap to your success: Our AI web application as your career navigator with intelligent decision making"
+            <i>"When Purpose Meets Passion, Performance Follows"</i><br />
+            Our AI web application as your career navigator with intelligent decision making
             </p>
             <button 
               className="register-button"
