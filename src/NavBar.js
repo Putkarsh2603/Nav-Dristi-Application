@@ -3,7 +3,7 @@ import './NavBar.css';
 
 const NavBar = ({ style = {}, setShowLoginModal }) => {
   const buttons = [
-    { text: 'Features', width: 100, onClick: () => console.log('Features clicked') },
+    { text: 'Test', width: 100, onClick: () => console.log('Features clicked') },
     { text: 'Job Recommendation', width: 180, onClick: () => console.log('Job Recommendation clicked') },
     { text: 'Skill Analysis', width: 110, onClick: () => console.log('Skill Analysis clicked') },
     { text: 'Trending Skill', width: 110, onClick: () => console.log('Trending Skill clicked') },
