@@ -80,6 +80,42 @@
       width: 200px;
     }
   }
+
+  /* new button */
+  .button-73 {
+    background-color: #FFFFFF;
+    border-radius: 35em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    color: #000000;
+    cursor: pointer;
+    font-family: -apple-system,sans-serif;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    transition: all .15s;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #ade0f0;
+    box-shadow: #1a59c4 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (max-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+      width: 200px
+    }
+  }
   
   /* Login Modal Styles */
 .login-modal-overlay {
