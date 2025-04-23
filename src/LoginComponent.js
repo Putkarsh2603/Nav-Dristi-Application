@@ -14,6 +14,8 @@ export default function LoginComponent({ onClose }) {
           </div>
           <div className='form-container'>
             <div className='form-toggle'>
+              <button className={isLogin ? 'active' : ""} onClick={() => setIsLogin(true)}>Login</button>
+              <button className={!isLogin ? 'active' : ""} onClick={() => setIsLogin(false)}>Sign Up</button>
             </div>
 
             {isLogin ? (
@@ -36,7 +38,7 @@ export default function LoginComponent({ onClose }) {
                       <i className="fab fa-google"></i> Continue with Google
                     </button>
                     <button className="social-btn facebook-btn">
-                      <i className="fab fa-facebook-f"></i> Continue with LinkedIn
+                      <i className="fab fa-facebook-f"></i> Continue with Facebook
                     </button>
                   </div>
                   
@@ -51,9 +53,7 @@ export default function LoginComponent({ onClose }) {
                 </div>
               </div>
             ) : (
-             
               <div className="form">
-                 
                 <h2>Sign Up and discover great opportunities</h2>
                 <input type='email' placeholder='Your email ID' />
                 <input type='password' placeholder='Enter a strong password' />
