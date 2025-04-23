@@ -15,7 +15,6 @@
 
 /* Modal Content */
 .modal-content {
-  /* background: rgb(234, 190, 190); */
   background-image: url('./loginBackground.png');
   padding: 40px 20px 20px;
   border-radius: 10px;

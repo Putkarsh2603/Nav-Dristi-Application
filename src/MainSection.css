@@ -44,26 +44,6 @@
     margin: 0;
   }
   
-  .register-button {
-    width: fit-content;
-    padding: 10px 22.27px;
-    background-color: #5160c3;
-    color: #ffffff;
-    border: none;
-    border-radius: 15px;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    align-items: center;
-  }
-  
-  .register-button:hover {
-    background-color: #25bd43;
-  }
-  
   .image-container {
     flex: 1;
     max-width: 900px;
@@ -98,7 +78,7 @@
   
   /* Register Button Styles */
 .register-button {
-  background: linear-gradient(135deg, #0066cc, #004d99);
+  background: linear-gradient(135deg, #188248, #07b616);
   color: white;
   padding: 12px 30px;
   border: none;
@@ -112,7 +92,7 @@
 }
 
 .register-button:hover {
-  background: linear-gradient(135deg, #004d99, #0066cc);
+  background: linear-gradient(135deg, #20ce3a, #107b31);
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }

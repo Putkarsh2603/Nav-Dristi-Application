@@ -26,7 +26,7 @@ const NavBar = ({ style = {}, setShowLoginModal }) => {
         {buttons.map((button, index) => (
           <button
             key={index}
-            className="nav-button"
+            className="button-73"
             style={{ width: `${button.width}px` }}
             onClick={button.onClick}
             aria-label={button.text}
