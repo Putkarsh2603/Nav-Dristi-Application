@@ -32,7 +32,7 @@ export default function RegisterComponent({ onClose, showLogin }) {
           </div>
           <div className='form-container'>
             <div className='form-toggle'>
-              <button onClick={() => showLogin()}>Login</button>
+              {/* <button onClick={() => showLogin()}>Login</button> */}
               <button className="active">Sign Up</button>
             </div>
 
@@ -81,17 +81,6 @@ export default function RegisterComponent({ onClose, showLogin }) {
                     <i className="fab fa-linkedin"></i> Linkedin
                   </button>
                 </div>
-                
-                <p className="toggle-text">
-                  Already have an account? 
-                  <button 
-                    type="button"
-                    className="text-button" 
-                    onClick={() => showLogin()}
-                  >
-                    Log in
-                  </button>
-                </p>
               </div>
             </form>
           </div>
