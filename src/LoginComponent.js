@@ -25,7 +25,9 @@ export default function LoginComponent({ onClose }) {
                 <input type='password' placeholder='Password' />
                 
                 <div className="button-container">
-                  <button className="primary-btn" type="submit">Login</button>
+                  <button className="primary-btn" type="submit"
+                  style={{ backgroundColor: 'blue', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '30px 30px 30px 30px' }}
+>Login</button>
                   <button 
                     className="text-button" 
                     onClick={() => {/* Add forgot password logic */}}
@@ -37,8 +39,8 @@ export default function LoginComponent({ onClose }) {
                     <button className="social-btn google-btn">
                       <i className="fab fa-google"></i> Continue with Google
                     </button>
-                    <button className="social-btn facebook-btn">
-                      <i className="fab fa-facebook-f"></i> Continue with Facebook
+                    <button className="social-btn linkedin-btn">
+                      <i className="fab fa-linkedin"></i> Continue with Linkedin
                     </button>
                   </div>
                   
@@ -60,14 +62,15 @@ export default function LoginComponent({ onClose }) {
                 <input type='password' placeholder='Confirm your password' />
                 
                 <div className="button-container">
-                  <button className="primary-btn" type="submit">Sign Up</button>
+                  <button className="primary-btn" type="submit"
+                   style={{ backgroundColor: 'blue', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '30px 30px 30px 30px' }}>Sign Up</button>
                   
                   <div className="social-buttons">
                     <button className="social-btn google-btn">
                       <i className="fab fa-google"></i> Continue with Google
                     </button>
-                    <button className="social-btn facebook-btn">
-                      <i className="fab fa-facebook-f"></i> Continue with Facebook
+                    <button className="social-btn linkedin-btn">
+                      <i className="fab fa-linkedin"></i> Continue with Linkedin
                     </button>
                   </div>
                   

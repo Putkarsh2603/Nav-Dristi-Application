@@ -77,8 +77,8 @@ export default function RegisterComponent({ onClose, showLogin }) {
                   <button type="button" className="social-btn google-btn">
                     <i className="fab fa-google"></i> Google
                   </button>
-                  <button type="button" className="social-btn facebook-btn">
-                    <i className="fab fa-facebook-f"></i> Facebook
+                  <button type="button" className="social-btn linkedin-btn">
+                    <i className="fab fa-linkedin"></i> Linkedin
                   </button>
                 </div>
                 

@@ -191,26 +191,27 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 20px 20px 20px 20px ;
 }
 
 .google-btn {
-  background: white;
-  color: #333;
+  background: rgb(135, 193, 238);
+  color: white;
   border: 1px solid #ddd;
 }
 
 .google-btn:hover {
-  background: #f5f5f5;
+  background: #32a4eb;
 }
 
-.facebook-btn {
-  background: #3b5998;
+.linkedin-btn {
+  background: #3d37b770;
   color: white;
-  border: 1px solid #3b5998;
+  border: 1px solid #365baa;
 }
 
-.facebook-btn:hover {
-  background: #344e86;
+.linkedin-btn:hover {
+  background: #445b8d;
 }
 
 /* Toggle Text */
